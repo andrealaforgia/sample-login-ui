@@ -1,0 +1,22 @@
+dn: dc=elsevier,dc=com
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: elsevier
+
+dn: ou=people,dc=elsevier,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=andrea,ou=people,dc=elsevier,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Andrea Laforgia
+sn: Laforgia
+uid: andrea
+userPassword: andrea123
+
+
